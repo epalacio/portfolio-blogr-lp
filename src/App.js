@@ -13,18 +13,6 @@ const App = () => (
     <div>
       <p className="text-blue-900">Testing text for tailwindCSS</p>
       <p>Proving connection with nodeJs backend</p>
-      <ul>
-        <li>Element1</li>
-        <li>Element2</li>
-        <li>Element3</li>
-        <li>Element4</li>
-        <li>Element5</li>
-        <li>Element6</li>
-        <li>Element7</li>
-        <li>Element8</li>
-        <li>Element9</li>
-        <li>Element10</li>
-      </ul>
       <Nav/>
       <Infrastructure/>
       <Hero/>
