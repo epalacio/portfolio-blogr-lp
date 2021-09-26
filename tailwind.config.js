@@ -15,18 +15,21 @@ module.exports = {
         'radicalRed': '#ff3d54',
         'valhalla': '#2c2d3f',
         'portGore': '#3f4164'
+      },
+      fontFamily: {
+        'ubuntu': ['Ubuntu', 'sans-serif'],
+      },
+      fontSize: {
+        'heroHeaderMobile': '36px',
+        'heroHeaderDesktop': '64px',
+        'heroSubHeaderMobile': '18px',
+        'heroSubHeaderDesktop': '20px',
+        'subHeaderMobile': '28px',
+        'subHeaderDesktop': '40px',
+        'h3Header': '28px',
+        'baseText': '16px'
       }
     },
-    fontSize: {
-      'heroHeaderMobile': '36px',
-      'heroHeaderDesktop': '64px',
-      'heroSubHeaderMobile': '18px',
-      'heroSubHeaderDesktop': '20px',
-      'subHeaderMobile': '28px',
-      'subHeaderDesktop': '40px',
-      'h3Header': '28px',
-      'baseText': '16px'
-    }
   },
   variants: {
     extend: {},
