@@ -28,6 +28,9 @@ module.exports = {
         'subHeaderDesktop': '40px',
         'h3Header': '28px',
         'baseText': '16px'
+      },
+      borderRadius: {
+        'blogrRad': '120px'
       }
     },
   },
