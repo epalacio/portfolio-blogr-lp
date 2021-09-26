@@ -27,10 +27,14 @@ module.exports = {
         'subHeaderMobile': '28px',
         'subHeaderDesktop': '40px',
         'h3Header': '28px',
-        'baseText': '16px'
+        'baseText': '16px',
+        'footerLinks': '15px'
       },
       borderRadius: {
         'blogrRad': '120px'
+      },
+      width: {
+        'logo': '100px'
       }
     },
   },
