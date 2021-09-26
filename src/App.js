@@ -9,7 +9,6 @@ import Footer from './components/Footer'
 const App = () => (
 //Fragment is temporary before setting up router
   <Fragment>
-    <h1 className="text-red-900 text-tester">Blogr</h1>
       <Hero/>
       <Future/>
       <Infrastructure/>
