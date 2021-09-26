@@ -9,9 +9,9 @@ import Future from './components/Future'
 const App = () => (
 //Fragment is temporary before setting up router
   <Fragment>
-    <h1 className="text-red-900 text-6xl">Hello World</h1>
+    <h1 className="text-red-900 text-tester">Hello World</h1>
     <div>
-      <p className="text-blue-900">Testing text for tailwindCSS</p>
+      <p className="text-regalBlue">Testing text for tailwindCSS</p>
       <p>Proving connection with nodeJs backend</p>
       <Nav/>
       <Infrastructure/>
