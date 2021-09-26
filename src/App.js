@@ -4,6 +4,7 @@ import Infrastructure from './components/Infrastructure'
 import Hero from './components/Hero';
 import Features from './components/Features';
 import Future from './components/Future'
+import Footer from './components/Footer'
 
 const App = () => (
 //Fragment is temporary before setting up router
@@ -13,6 +14,7 @@ const App = () => (
       <Future/>
       <Infrastructure/>
       <Features/>
+      <Footer/>
   </Fragment>
 );
 
