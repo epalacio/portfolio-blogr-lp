@@ -84,7 +84,7 @@ const Hero = () => {
           leave='transition ease-in duration-75 transform'
           leaveFrom='opacity-100 scale-100'
           leaveTo='opacity-0 scale-95'
-          className='absolute z-10 w-9/12 bg-white rounded-xl shadow-2xl mx-auto left-0 right-0 pb-16 pt-2'
+          className='absolute z-10 w-11/12 bg-white rounded-xl shadow-2xl mx-auto left-0 right-0 pb-16 pt-2'
         >
           {(ref) => (
             <div
