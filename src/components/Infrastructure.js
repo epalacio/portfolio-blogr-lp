@@ -5,7 +5,7 @@ import phones from '../img/illustration-phones.svg'
 
 const Infrastructure = () => {
     return ( 
-        <div  id='infrastructure' className='max-w-screen-xl mx-auto mt-60'>
+        <section  id='infrastructure' className='max-w-screen-xl mx-auto mt-60'>
             <div className='flex flex-col sm:flex-row items-center justify-center rounded-tr-blogrRad rounded-bl-blogrRad py-16 sm:max-h-80 bg-gradient-to-r from-portGore via-portGore to-valhalla'>
                 <div className='sm:w-5/12'>
                     <img src={phones} className='-mt-52 sm:mt-0' alt="Mobiles with logo and content mockup"  />
@@ -17,7 +17,7 @@ const Infrastructure = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
  

@@ -5,7 +5,7 @@ import featuresImgDesktop from '../img/illustration-laptop-desktop.svg'
 
 const Features = () => {
     return ( 
-        <div className='max-w-screen-xl mx-auto mt-60'>
+        <section className='max-w-screen-xl mx-auto mt-60'>
             <div className='future-content flex flex-col sm:flex-row items-center justify-center'>
                 <div className='future-img sm:w-5/12'>
                     <img src={featuresImgMobile} className='block sm:hidden mt-6' alt="Desktop with elements inside"  />
@@ -22,7 +22,7 @@ const Features = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
  

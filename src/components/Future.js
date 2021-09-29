@@ -5,7 +5,7 @@ import futureImgDesktop from '../img/illustration-editor-desktop.svg'
 
 const Future = () => {
     return ( 
-        <div className='max-w-screen-xl mx-auto mt-20'>
+        <section className='max-w-screen-xl mx-auto mt-20'>
             <h2 className='text-regalBlue text-subHeaderMobile sm:text-subHeaderDesktop font-normal mx-auto text-center'>Designed for the future</h2>
             <div className='future-content flex flex-col-reverse sm:flex-row items-center justify-center'>
                 <div className='future-text flex flex-col px-6 sm:w-5/12'>
@@ -23,7 +23,7 @@ const Future = () => {
                     <img src={futureImgDesktop} className='hidden sm:block mt-6' alt="Desktop with elements inside"  /> 
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
  

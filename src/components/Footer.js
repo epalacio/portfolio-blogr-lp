@@ -2,7 +2,7 @@ import logo from '../img/logo.svg'
 
 const Footer = () => {
     return ( 
-        <div className='bg-blackRussian mt-60 text-white rounded-tr-blogrRad mx-auto flex flex-col sm:flex-row justify-around iterms-center py-10'>
+        <section className='bg-blackRussian mt-60 text-white rounded-tr-blogrRad mx-auto flex flex-col sm:flex-row justify-around iterms-center py-10'>
             <img src={logo} className='w-logo h-full mt-10 mx-auto sm:mx-0 mb-20 sm:mb-0' alt="Blogr main logo"  />
             <div className='flex flex-col mt-10 text-center sm:text-left'>
                 <a href='/' className='font-bold mb-6'>Product</a>
@@ -25,7 +25,7 @@ const Footer = () => {
                 <a href='/' className='text-footerLinks my-2'>Newsletter</a>
                 <a href='/' className='text-footerLinks my-2'>LinkedIn</a>
             </div>
-        </div>
+        </section>
      );
 }
  
